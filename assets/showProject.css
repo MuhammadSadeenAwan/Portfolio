@@ -1,3 +1,64 @@
+/* NAVBAR */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #67f39bc4;
+    z-index: 1000;
+}
+
+/* INNER CONTAINER */
+.nav-inner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGO */
+.logo {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    backdrop-filter: blur(10px);
+    
+}
+
+
+.backBut {
+        color: var(--menu-text);
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Clash Display', sans-serif;
+    line-height: 1.1;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 600px) {
+    .logo {
+        font-size: 1.4rem; /* slightly bigger logo */
+    }
+
+    .backBut,
+    .menu-btn {
+        font-size: 1.4rem; /* bigger, easier to tap */
+        padding: 10px 1px; /* add padding for touch area */
+    }
+
+    .nav-inner {
+        padding: 0px 15px; /* slightly more spacing */
+    }
+}
+
+
 
         /* General Setup */
         body {
