@@ -55,6 +55,16 @@ nav {
     backdrop-filter: blur(10px);
     z-index: 1000;
 }
+.backBut{
+        color: var(--menu-text);
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Clash Display', sans-serif;
+    line-height: 1.1;
+    display: inline-block;
+    transition: 0.3s;
+}
 
 /* Menu Overlay - Yahan major changes hain */
 .menu-overlay {
